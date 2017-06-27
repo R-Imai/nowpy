@@ -8,6 +8,8 @@ __version__ = "0.0.0"
 __created__ = "2017/06/26"
 __date__ = "2017/06/26"
 #----------------------------------
+import numpy as np
+import pandas as pd
 
 class mean_std_collector:
     def __init__(self, arr = []):
